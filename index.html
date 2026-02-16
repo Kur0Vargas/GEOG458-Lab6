@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Seattle Collision Dashboardn</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web|Oswald" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/c3.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+    <script src="js/d3.js"></script>
+    <script src="js/c3.min.js"></script>
+</head>
+
+<body>
+    <div id="info">
+        <div id="title">
+            Seattle Vehicle Collisions (2014-2015)
+            <span><a href="https://twitter.com/UW" target="_blank"><i class="bi bi-twitter"></i></a></span>
+            <span><a href="https://github.com/Kur0Vargas/GEOG458-Lab6/" target="_blank"><i class="bi bi-github"></i></a></span>
+            <span id="reset"><a href="#">reset</a></span>
+        </div>
+        <div id="count" class="card">
+            <h5 id="desc">Unique Incidents in View</h5>
+            <p id="collision-count">0</p>
+        </div>
+        <div id="chart"></div>
+
+        <div id="footer">
+            <p>This web map visualizes the data in Seattle from 2014-2015 for each unique individual vehicle collision during this timeframe. Collision points are clustered into three tiers: 100+, 5000+, 10000+ to indicate which areas of Seattle incurred the most vehicle/passenger collisions.</p>
+            
+            <a id="source-link" href="https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::sdot-collisions-vehicles/explore?filters=eyJJTkNEVFRNIjpbMTI2MzYzODA3MTQ1OC4wMywxNDUxMjg0NzY3NTY5Ljk2XSwiU1RfU0VRX0VWTlRTMV9ERVNDIjpbIkNvbGxpc2lvbiBJbnZvbHZpbmcgTW90b3IgVmVoaWNsZSBpbiBUcmFuc3BvcnQiXX0%3D&location=47.599169%2C-122.300229%2C12" target="_blank">
+                Seattle Geodata: SDOT Collisions
+            </a>
+        </div>
+    </div>
+    <div id="map"></div>
+    <div id="legend"></div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

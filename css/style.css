@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', serif;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#info {
+    z-index: 1000;
+    position: absolute;
+    width: 480px;
+    top: 1%;
+    bottom: 1%;
+    left: .5%;
+    padding: 20px 15px;
+    background: #343a40;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    overflow-y: auto;
+}
+
+#info a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+#info a:hover {
+    color: white;
+}
+
+#title {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 1px solid #555;
+    padding-bottom: 10px;
+}
+
+#title span {
+    font-size: 14px;
+    float: right;
+    margin-left: 10px;
+}
+
+#desc {
+    text-align: center;
+    color: lightgray;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#collision-count {
+    margin: 0;
+    text-align: center;
+    color: orange;
+    font-size: 50px;
+}
+
+#chart {
+    margin-top: 20px;
+}
+
+#footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: lightgray;
+    line-height: 1.5;
+}
+
+#source-link {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: underline;
+}
+
+#legend {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    width: 120px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.break {
+    position: relative;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dot {
+    display: inline-block;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+.dot-label {
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* Chart Axis Styling */
+text {
+    fill: gray;
+}
+
+.tick line {
+    stroke: gray;
+}
+
+.c3-axis path {
+    stroke: gray;
+}

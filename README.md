@@ -1,5 +1,7 @@
 # GEOG458 Seattle Vehicle Collisions Dashboard Web Map
 
+### No AI tools were used in this assignment.
+
 ## Web Map URL
 Access the web map here: [GEOG458 Lab 6 Web Map](https://kur0vargas.github.io/GEOG458-Lab6/index.html)
 

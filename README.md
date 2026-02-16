@@ -9,3 +9,4 @@ This web map visualizes the data in Seattle from **2014–2015** for each unique
 
 ## Sources / Data
 - [Seattle Geodata: SDOT Collisions](https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::sdot-collisions-vehicles/explore?filters=eyJJTkNEVFRNIjpbMTI2MzYzODA3MTQ1OC4wMywxNDUxMjg0NzY3NTY5Ljk2XSwiU1RfU0VRX0VWTlRTMV9ERVNDIjpbIkNvbGxpc2lvbiBJbnZvbHZpbmcgTW90b3IgVmVoaWNsZSBpbiBUcmFuc3BvcnQiXX0%3D&location=47.599169%2C-122.300229%2C12)
+- Credits to Bo Zhao (jakobzhao) for [Lab 6](https://github.com/jakobzhao/geog458/tree/master/weeks/week06) example code

@@ -4,7 +4,7 @@
 Access the web map here: [GEOG458 Lab 6 Web Map](https://kur0vargas.github.io/GEOG458-Lab6/index.html)
 
 ## Overview
-![Map Overview](assets/map.png)  
+![Map Overview](img/map.png)  
 This web map visualizes the data in Seattle from **2014–2015** for each unique individual vehicle collision during this timeframe. Collision points are **clustered into three tiers: 100+, 5000+, 10000+** to indicate which areas of Seattle incurred the most vehicle/passenger collisions.
 
 ## Sources / Data
